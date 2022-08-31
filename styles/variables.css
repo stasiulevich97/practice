@@ -3,6 +3,8 @@
     --text-main-color : #A46B4C;
     --primary-margin :1rem;
     --primary-padding :1rem;
+    --secondary-margin : 2rem;
+    --sm-margin : .5rem;
     --primary-bg-color : #A46B4C;
 
 }
