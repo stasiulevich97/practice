@@ -1,10 +1,12 @@
 
 :root{
     --text-main-color : #A46B4C;
+    --secondary-text-color : #ffffff;
     --primary-margin :1rem;
     --primary-padding :1rem;
     --secondary-margin : 2rem;
     --sm-margin : .5rem;
+    --medium-margin :3rem;
     --primary-bg-color : #A46B4C;
 
 }
