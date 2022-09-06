@@ -71,9 +71,9 @@ li {
 
 .bigger__img-text{
     color: var(--text-main-color);
-    position: absolute;
-    top: 37rem;
-    left: 8rem;
+    text-align: center;
+    margin-bottom: var(--primary-margin);
+    
 }
 
 .bigger__img-wrapper{
@@ -90,7 +90,7 @@ li {
 
 .footer{
     background-color: var(--primary-bg-color);
-    height: 8rem;
+    height: 6rem;
 }
 
 .footer__nav{
@@ -126,14 +126,106 @@ li {
         height: 15rem;
     }
 
-    .bigger__img-text{
-        color: var(--text-main-color);
-        position: absolute;
-        top:49rem;
-        left: 14.5rem;
+    .footer{
+        height: 8rem;
     }
 
     .footer__img{
         margin: var(--medium-margin);
+    }
+}
+
+
+
+
+@media (min-width : 768px) and (max-width : 1200px){
+    .header__logo{
+        width:12rem;
+        height: 8rem;
+    }
+
+    .main__img-wrapper{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .main__img{
+        width: 14rem;
+        height: 14rem;
+        margin: var(--biggest-margin);
+        
+    }
+
+    .main__btn{
+        width: 8rem;
+        height: 3rem;
+    }
+
+    .bigger__img-wrapper{
+        margin-bottom: var(--biggest-margin);
+    }
+
+    .bigger__img{
+        width: 18rem;
+        height: 17rem;
+    }
+
+    .footer{
+        width:100%;
+        height: 8rem;
+    }
+
+    .footer__img{
+        margin: var(--medium-margin);
+    }
+
+}
+
+@media (min-width : 1200px){
+    .header__logo{
+        width:14rem;
+        height: 7rem;
+    }
+
+    .main__img-wrapper{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .main__img{
+        width: 20rem;
+        height: 18rem;
+        margin: var(--biggest-margin);
+        
+    }
+
+    .main__btn{
+        width: 8rem;
+        height: 3rem;
+    }
+
+    .bigger__img-wrapper{
+        margin-bottom: var(--biggest-margin);
+    }
+
+    .bigger__img{
+        width: 18rem;
+        height: 17rem;
+    }
+
+    .footer{
+        width:100%;
+        height: 8rem;
+    }
+
+    .footer__img{
+        margin: var(--medium-margin);
+        margin-left: 7rem;
     }
 }

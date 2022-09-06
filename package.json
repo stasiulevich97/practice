@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "postcss-load-config": "^4.0.1",
-    "sass": "^1.54.8"
-  }
-}
